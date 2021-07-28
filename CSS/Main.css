@@ -4,7 +4,7 @@
   
 }
 
-a.hover{
+a:hover{
   color: blanchedalmond;
 }
 
@@ -49,6 +49,7 @@ nav{
   font-size: 150px;
   padding: 500px;
   color: white;
+  text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   justify-content: center;
   background-image: url(../images/nightsky1.jpg);
   background-repeat: no-repeat;
@@ -56,6 +57,7 @@ nav{
   background-size: cover;
   text-align: center;
   align-items: center;
+  display: flex;
 }
 
 .about-me{
