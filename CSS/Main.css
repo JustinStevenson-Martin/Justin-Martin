@@ -42,8 +42,9 @@ nav{
 .landing-screen{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 150px;
-  padding: 400px;
+  padding: 500px;
   color: white;
+  justify-content: center;
   background-image: url(../images/nightsky1.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -58,7 +59,7 @@ nav{
   display: flex;
   color: white;
   background-color: black;
-  min-height: 15vh;
+  min-height: 40vh;
   text-align: left;
   align-items: center;
   justify-content: space-around;
