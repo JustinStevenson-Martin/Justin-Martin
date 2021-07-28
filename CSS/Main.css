@@ -1,7 +1,6 @@
 *{
   margin:0;
   padding:0;
-  box-sizing: border-box;
 }
 
 a:hover{
@@ -48,7 +47,7 @@ nav{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 150px;
   margin-top: 300px;
-  margin-bottom: 500px;
+  margin-bottom: 530px;
   text-align: center;
   align-items: center;
   justify-content: space-around;
@@ -57,7 +56,10 @@ nav{
 .about-me{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 100px;
-  margin-left: 50px;
+  display: flex;
+  color: white;
+  background-color: black;
+  min-height: 15vh;
   text-align: left;
   align-items: center;
   justify-content: space-around;
@@ -66,10 +68,12 @@ nav{
 .about-para{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 30px;
-  margin-left: 50px;
+  text-align: center;
+  justify-content: space-around;
   text-align: left;
   align-items: center;
   justify-content: space-around;
+  min-height: 40vh;
 }
 
 
