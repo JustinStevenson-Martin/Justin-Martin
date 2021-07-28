@@ -16,13 +16,6 @@ nav{
   min-height: 10vh;
 }
 
-.Landing-screen{
-  font:normal 50px 'Lato', sans-serif;
-  padding-left: 50px;
-  text-align: center;
-  align-items: center;
-  justify-content: space-around;
-
 .website-logo{
   font: normal 40px 'Lato', sans-serif;
   text-transform: uppercase;
@@ -99,4 +92,10 @@ nav{
     }
 }
 
+.Landing-screen{
+  font:normal 50px 'Lato', sans-serif;
+  padding-left: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
 }
