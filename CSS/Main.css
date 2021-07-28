@@ -44,6 +44,14 @@ nav{
   
 }
 
+.Landing-screen{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 200px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .mobile-menu div{
   background-color: white;
   margin: 7px;
@@ -91,12 +99,4 @@ nav{
     .nav-active{
       transform: translateX(0%);
     }
-}
-
-.Landing-screen{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 100px;
-  text-align: center;
-  align-items: center;
-  justify-content: space-around;
 }
