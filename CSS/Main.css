@@ -3,10 +3,6 @@
   padding:0;
 }
 
-a:hover{
-  color:green
-}
-
 nav{
   display: flex;
   justify-content: space-around;
@@ -46,8 +42,10 @@ nav{
 .landing-screen{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 150px;
-  margin-top: 300px;
-  margin-bottom: 530px;
+  padding: 400px;
+  color: white;
+  background-image: url(../images/nightsky1.jpg);
+  background-repeat: no-repeat;
   text-align: center;
   align-items: center;
   justify-content: space-around;
