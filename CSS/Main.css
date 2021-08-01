@@ -4,9 +4,13 @@
   
 }
 
+
+
 a:hover{
   color: blanchedalmond;
 }
+
+
 
 nav{
   display: flex;
@@ -15,6 +19,8 @@ nav{
   background-color: black;
   min-height: 9vh;
 }
+
+
 
 .website-logo{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -25,6 +31,8 @@ nav{
   padding-right: 50px;
   color: white;
 }
+
+
 
 .nav-buttons{
   display:flex;
@@ -44,25 +52,44 @@ nav{
   
 }
 
+
+
 .landing-screen{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 150px;
   padding: 500px;
-  color: white;
-  text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   justify-content: center;
   background-image: url(../images/nightsky1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  text-align: center;
   align-items: center;
-  display: flex;
+  display:flex;
 }
-  .landing-screen a{
+
+.landing-screen a{
       text-decoration: none;
+      text-align: center;
+      align-items: center;
+      display: flex;
+      letter-spacing: 2px;
+      width: 100%;
+      font-size: 150px;
       color: white;
-  }
+}
+
+
+
+.back-to-top{
+  position: fixed;
+  text-align: center;
+  right: 0px;
+  bottom: 0px;
+  background-color: black;
+  padding: 20px 30px;
+  background-size: cover;
+}
+
+
 
 .about-me{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -74,10 +101,11 @@ nav{
   align-items: center;
   justify-content: space-around;
 }
-    .about-me a{
+    
+.about-me a{
       text-decoration: none;
       color: white;
-    }
+}
 
 .about-para{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -90,6 +118,8 @@ nav{
   min-height: 100vh;
 }
 
+
+
 .project{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 100px;
@@ -100,10 +130,13 @@ nav{
   background-color: white;
   display:flex;
 }
-  .project a{
+
+.project a{
     text-decoration: none;
     color: black
-  }
+}
+
+
 
 .tech-skill{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -115,10 +148,13 @@ nav{
   background-color: white;
   display:flex;
 }
-    .tech-skill a{
+
+.tech-skill a{
       text-decoration: none;
       color: black
-    }
+}
+
+
 
 .endorsements{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -130,10 +166,13 @@ nav{
   background-color: black;
   display:flex;
 }
-  .endorsements a{
+
+.endorsements a{
     text-decoration: none;
     color: white;
-  }
+}
+
+
 
 .mobile-menu div{
   background-color: white;
