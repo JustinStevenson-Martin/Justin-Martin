@@ -103,19 +103,23 @@ nav{
 }
     
 .about-me a{
-      text-decoration: none;
-      color: white;
+  text-decoration: none;
+  color: white;
 }
 
-.about-para{
+.about-me-cont{
+  background-image: linear-gradient(purple, orange);
+
+}
+
+.about-into{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 30px;
-  text-align: center;
-  justify-content: space-around;
-  text-align: left;
-  align-items: center;
-  justify-content: space-around;
-  min-height: 100vh;
+  height: 50vh;
+  width: 50vh;
+  color: white;
+  letter-spacing: 1px;
+    
 }
 
 
