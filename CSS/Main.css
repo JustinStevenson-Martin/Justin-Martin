@@ -1,9 +1,7 @@
 *{
-  margin:0;
-  padding:0;
-  
+  margin: auto;
+  padding: 0;
 }
-
 
 
 a:hover{
@@ -11,15 +9,13 @@ a:hover{
 }
 
 
-
 nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: black;
-  min-height: 9vh;
+  min-height: 10vh;
 }
-
 
 
 .website-logo{
@@ -35,12 +31,12 @@ nav{
 
 
 .nav-buttons{
-  display:flex;
+  display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
   color: white;
-  width: 40%;
+  width: 30%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -53,17 +49,16 @@ nav{
 }
 
 
-
 .landing-screen{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   justify-content: center;
-  height: 1190px;
+  height: 90vh;
   background-image: url(../images/nightsky1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   align-items: center;
-  display:flex;
+  display: flex;
 }
 
 .landing-screen a{
@@ -78,20 +73,19 @@ nav{
 }
 
 
-
 .back-to-top{
   position: fixed;
   text-align: center;
-  right: 15.5px;
+  right: 15px;
   bottom: 0px;
+  border-top-left-radius: 15px;
   background-color: black;
   padding: 20px 30px;
   background-size: cover;
 }
 
 
-
-.about-me{
+.about-title{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 6.5rem;
   display: flex;
@@ -102,85 +96,298 @@ nav{
   justify-content: space-around;
 }    
 
+
 .about-me-cont{
   background-image: linear-gradient(45deg,orange, purple);
-  height:1500px
+  height: 130vh
 
 }
 
-.about-1{
+.about-heading{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1.8rem;
-  padding: 25px;
+  font-size: 5rem;
+  padding-top: 300px;
+  padding-bottom: 200px;
   color: white;
-  letter-spacing: 1px;  
+  letter-spacing: 4px;  
   max-width: 60ch;
+  text-align: center;
   
 }
 
-.about-2{
+.about-para-1{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1.8rem;
-  padding: 25px;
+  font-size: 3rem;
+  padding-bottom: 100px;
   color: white;
-  letter-spacing: 1px;
+  letter-spacing: 4px;
   max-width: 60ch;
+  text-align: center
     
 }
 
-.project{
+.about-see-1{
+  width: 200px;
+  height: 35px;
+  border: 3px solid white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 100px;
+  font-size: 1.5rem;
+  color: white;
+  letter-spacing: 4px;  
   text-align: center;
-  align-items: center;
-  justify-content: space-around;
-  min-height: 35vh;
-  background-color: white;
-  display: flex;
+}
+.about-see-1 a{
+  text-decoration: none;
+  color: white;
 }
 
-.project a{
-    text-decoration: none;
-    color: black
+.about-see-2{
+  width: 200px;
+  height: 35px;
+  border: 3px solid white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  letter-spacing: 4px;  
+  text-align: center;
+}
+.about-see-2 a{
+  text-decoration: none;
+  color: white;
+}
+
+.about-para-2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+  letter-spacing: 4px;
+  max-width: 60ch;
+  text-align: center;
 }
 
 
-
-.tech-skill{
+.project-title{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 6.5rem;
   text-align: center;
   align-items: center;
   justify-content: space-around;
   min-height: 35vh;
-  background-color: white;
+  color: white;
+  background-color:black ;
   display: flex;
 }
 
-.tech-skill a{
-      text-decoration: none;
-      color: black
+
+.project-cont{
+  background-color: rgb(238, 237, 237);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10rem;
+  grid-template-areas:
+    "project-1 project-2"
+    "project-3 project-4";
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+}
+.project-cont a{
+  text-decoration: none;
+  color: black;
 }
 
 
 
-.endorsements{
+.project-1{
+  border-color: black;
+  border-radius: 1rem;
+  width:800px;
+  height:1000px;
+  background-color: white;
+  grid-area: project-1;
+  
+}
+
+.project-2{
+  border-color: black;
+  border-radius: 1rem;
+  width:800px;
+  height:1000px;
+  background-color: white;
+  grid-area: project-2;
+  
+}
+
+.project-3{
+  border-color: black;
+  border-radius: 1rem;
+  width:800px;
+  height:1000px;
+  background-color: white;
+  grid-area: project-3;
+  
+}
+
+.project-4{
+  border-color: black;
+  border-radius: 1rem;
+  width:800px;
+  height:1000px;
+  background-color: white;
+  grid-area: project-4;
+  
+}
+
+.tech-title{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 6.5rem;
   text-align: center;
   align-items: center;
   justify-content: space-around;
   min-height: 35vh;
-  background-color: black;
+  color: white;
+  background-color:black ;
   display: flex;
 }
 
-.endorsements a{
-    text-decoration: none;
-    color: white;
+.tech-cont{
+  background-color: rgb(238, 237, 237);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10rem;
+  grid-template-areas:
+    "tech-1 tech-2"
+    "tech-3 tech-4";
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+}
+.tech-cont a{
+  text-decoration: none;
+  color: black;
 }
 
 
+.tech-1{
+  border-color: black;
+  border-radius: 1rem;
+  width:800px;
+  height:1000px;
+  background-color: white;
+  grid-area: tech-1;
+  
+}
+
+.tech-2{
+  border-color: black;
+  border-radius: 1rem;
+  width:800px;
+  height:1000px;
+  background-color: white;
+  grid-area: tech-2;
+  
+}
+
+.tech-3{
+  border-color: black;
+  border-radius: 1rem;
+  width:800px;
+  height:1000px;
+  background-color: white;
+  grid-area: tech-3;
+  
+}
+
+.tech-4{
+  border-color: black;
+  border-radius: 1rem;
+  width:800px;
+  height:1000px;
+  background-color: white;
+  grid-area: tech-4;
+  
+}
+
+
+.contact-title{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 6.5rem;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 35vh;
+  color: white;
+  background-color:black ;
+  display: flex;
+}
+
+.contact-cont{
+  background-color: rgb(238, 237, 237);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 1rem;
+  grid-template-areas:
+    "contact-1 contact-2 contact-3 contact-4";
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.contact-cont a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.contact-1{
+  border-color: black;
+  border-radius: 1rem;
+  width:500px;
+  height:600px;
+  background-color: white;
+  grid-area: contact-1;
+  
+}
+
+.contact-2{
+  border-color: black;
+  border-radius: 1rem;
+  width:500px;
+  height:600px;
+  background-color: white;
+  grid-area: contact-2;
+  
+}
+
+.contact-3{
+  border-color: black;
+  border-radius: 1rem;
+  width:500px;
+  height:600px;
+  background-color: white;
+  grid-area: contact-3;
+  
+}
+
+.contact-4{
+  border-color: black;
+  border-radius: 1rem;
+  width:500px;
+  height:600px;
+  background-color: white;
+  grid-area: contact-4;
+  
+}
 
 .mobile-menu div{
   background-color: white;
@@ -193,11 +400,45 @@ nav{
   display: none;
 }
 
+@media screen and (max-width:550px){
+  .project-cont{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "project-1"
+    "project-2"
+    "project-3" 
+    "project-4";
+    grid-gap: 10rem;
+  }
+  .tech-cont{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "tech-1"
+    "tech-3"
+    "tech-4"
+    "tech-5";
+    grid-gap: 10rem;
+  }
+  .contact-cont{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "project-1"
+    "project-2"
+    "project-3" 
+    "project-4";
+    grid-gap: 10rem;
+  }
+}
+
 @media screen and (max-width:1024px){
   .nav-buttons{
   width:65%;
   }
 }
+
 
 @media screen and (max-width:800px){
   body{
@@ -230,6 +471,7 @@ nav{
       transform: translateX(0%);
     }
 }
+
 
 html ,body{
   width: 100%;
