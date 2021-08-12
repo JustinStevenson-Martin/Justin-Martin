@@ -55,7 +55,7 @@ nav{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   justify-content: center;
   height: 90vh;
-  background-image: url(../images/nightsky1.jpg);
+  background-image: url(../images/nightsky.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -208,12 +208,12 @@ nav{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-gap: 1rem;
+  grid-gap: 3rem;
   grid-template-areas:
     "project-1 project-2 project-3"
     "project-4 project-5 project-6";
-  padding-top: 25rem;
-  padding-bottom: 25rem;
+  padding-top: 20rem;
+  padding-bottom: 20rem;
 }
   .project-cont a{
     text-decoration: none;
@@ -224,8 +224,8 @@ nav{
     .project-1{
       border-color: black;
       border-radius: 1rem;
-      width:800px;
-      height:900px;
+      width:550px;
+      height:800px;
       background-color: white;
       grid-area: project-1;
     }
@@ -233,13 +233,13 @@ nav{
         padding-top: 60px;
       }
         .project-1-title{
-          font-size: 3rem;
+          font-size: 2.5rem;
           font-weight: 600;
           padding-bottom: 30px;
         }
           .project-1-desc{
-            font-size: 1.5rem;
-            max-width: 40ch;
+            font-size: 1.3rem;
+            max-width: 35ch;
             padding-bottom: 30px;
           }
 
@@ -247,8 +247,8 @@ nav{
      .project-2{
       border-color: black;
       border-radius: 1rem;
-      width:800px;
-      height:900px;
+      width:550px;
+      height:800px;
       background-color: white;
       grid-area: project-2;
     }
@@ -256,13 +256,13 @@ nav{
         padding-top: 60px;
       }
         .project-2-title{
-          font-size: 3rem;
+          font-size: 2.5rem;
           font-weight: 600;
           padding-bottom: 30px;
         }
           .project-2-desc{
             font-size: 1.5rem;
-            max-width: 40ch;
+            max-width: 35ch;
             padding-bottom: 30px;
           }
 
@@ -270,8 +270,8 @@ nav{
      .project-3{
       border-color: black;
       border-radius: 1rem;
-      width:800px;
-      height:900px;
+      width:550px;
+      height:800px;
       background-color: white;
       grid-area: project-3;
     }
@@ -279,7 +279,7 @@ nav{
         padding-top: 60px;
       }
         .project-3-title{
-          font-size: 3rem;
+          font-size: 2.5rem;
           font-weight: 600;
           padding-bottom: 30px;
         }
@@ -293,9 +293,8 @@ nav{
      .project-4{
       border-color: black;
       border-radius: 1rem;
-      padding-top: 150px;
-      width:800px;
-      height:900px;
+      width:550px;
+      height:800px;
       background-color: white;
       grid-area: project-4;
     }
@@ -303,7 +302,7 @@ nav{
         padding-top: 60px;
       }
         .project-4-title{
-          font-size: 3rem;
+          font-size: 2.5rem;
           font-weight: 600;
           padding-bottom: 30px;
         }
@@ -317,9 +316,8 @@ nav{
     .project-5{
       border-color: black;
       border-radius: 1rem;
-      padding-top: 150px;
-      width:800px;
-      height:900px;
+      width:550px;
+      height:800px;
       background-color: white;
       grid-area: project-5;
     }
@@ -327,8 +325,8 @@ nav{
         padding-top: 60px;
       }
         .project-5-title{
-          font-size: 3rem;
-          font-weight: 600;
+          font-size: 2.5rem;
+          font-weight: 550;
           padding-bottom: 30px;
         }
           .project-5-desc{
@@ -341,9 +339,8 @@ nav{
     .project-6{
       border-color: black;
       border-radius: 1rem;
-      padding-top: 150px;
-      width:800px;
-      height:900px;
+      width:550px;
+      height:800px;
       background-color: white;
       grid-area: project-6;
     }
@@ -351,12 +348,12 @@ nav{
         padding-top: 60px;
       }
         .project-6-title{
-          font-size: 3rem;
+          font-size: 2.5rem;
           font-weight: 600;
           padding-bottom: 30px;
         }
           .project-6-desc{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             max-width: 40ch;
             padding-bottom: 30px;
           }
@@ -390,8 +387,8 @@ nav{
   grid-template-areas:
     "tech-1 tech-2"
     "tech-3 tech-4";
-  padding-top: 25rem;
-  padding-bottom: 25rem;
+  padding-top: 20rem;
+  padding-bottom: 20rem;
 }
   .tech-cont a{
     text-decoration: none;
@@ -471,8 +468,8 @@ nav{
   grid-gap: 1rem;
   grid-template-areas:
     "contact-1 contact-2 contact-3 contact-4";
-  padding-top: 25rem;
-  padding-bottom: 25rem;
+  padding-top: 20rem;
+  padding-bottom: 20rem;
 }
 .contact-cont a{
   text-decoration: none;
@@ -564,7 +561,7 @@ nav{
 }
 
 /* Main sections containers responsive adjustment */
-@media screen and (max-width:550px){
+@media screen and (max-width:800px){
   .project-cont{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -572,7 +569,9 @@ nav{
     "project-1"
     "project-2"
     "project-3" 
-    "project-4";
+    "project-4"
+    "project-5"
+    "project-6";
     grid-gap: 10rem;
   }
   .tech-cont{
@@ -582,7 +581,9 @@ nav{
     "tech-1"
     "tech-2"
     "tech-3"
-    "tech-4";
+    "tech-4"
+    "tech-5"
+    "tech-6";
     grid-gap: 10rem;
   }
   .contact-cont{
