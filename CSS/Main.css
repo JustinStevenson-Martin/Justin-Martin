@@ -40,7 +40,6 @@ nav{
   width: 30%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .nav-buttons a{
   color: white;
   letter-spacing: 1px;
@@ -63,7 +62,6 @@ nav{
   align-items: center;
   display: flex;
 }
-
 .landing-screen a{
       text-decoration: none;
       text-align: center;
@@ -78,15 +76,16 @@ nav{
 
 
 /* Bottom left return to top button */
-.back-to-top{
+.back-top{
   position: fixed;
   text-align: center;
-  right: 15px;
+  right: 17px;
   bottom: 0px;
   border-top-left-radius: 15px;
   background-color: black;
   padding: 20px 30px;
   background-size: cover;
+  position:fixed
 }
 
 
@@ -95,13 +94,18 @@ nav{
 .about-title{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 6.5rem;
+  letter-spacing: 5px;
   display: flex;
   background-color: black;
   color: white;
   min-height: 30vh;
   align-items: center;
   justify-content: space-around;
+  box-shadow: 00px 70px 70px 70px black; 
+  position: relative;
 }    
+
+
 
 /* main container for about me section */
 .about-me-cont{
@@ -114,8 +118,8 @@ nav{
 .about-heading{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 5rem;
-  padding-top: 300px;
-  padding-bottom: 200px;
+  padding-top: 30rem;
+  padding-bottom: 12rem;
   color: white;
   letter-spacing: 4px;  
   max-width: 60ch;
@@ -185,86 +189,183 @@ nav{
 .project-title{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 6.5rem;
-  text-align: center;
+  letter-spacing: 5px;
+  display: flex;
+  background-color: black;
+  color: white;
+  min-height: 30vh;
   align-items: center;
   justify-content: space-around;
-  min-height: 35vh;
-  color: white;
-  background-color:black ;
-  display: flex;
-}
+  box-shadow: 00px 50px 70px 70px black; 
+  position: relative;
+}    
 
 /* Title for project section */
 .project-cont{
   background-color: rgb(238, 237, 237);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
-  font-size: 3rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-gap: 10rem;
+  grid-gap: 1rem;
   grid-template-areas:
-    "project-1 project-2"
-    "project-3 project-4";
-  padding-top: 20rem;
-  padding-bottom: 20rem;
+    "project-1 project-2 project-3"
+    "project-4 project-5 project-6";
+  padding-top: 25rem;
+  padding-bottom: 25rem;
 }
-.project-cont a{
-  text-decoration: none;
-  color: black;
-}
+  .project-cont a{
+    text-decoration: none;
+    color: black;
+  }
 
-/* Project 1 card */
-.project-1{
-  border-color: black;
-  border-radius: 1rem;
-  width:800px;
-  height:1000px;
-  background-color: white;
-  grid-area: project-1;
-  
-}
+    /* Project 1 card */
+    .project-1{
+      border-color: black;
+      border-radius: 1rem;
+      width:800px;
+      height:900px;
+      background-color: white;
+      grid-area: project-1;
+    }
+      .macbook-1{
+        padding-top: 60px;
+      }
+        .project-1-title{
+          font-size: 3rem;
+          font-weight: 600;
+          padding-bottom: 30px;
+        }
+          .project-1-desc{
+            font-size: 1.5rem;
+            max-width: 40ch;
+            padding-bottom: 30px;
+          }
 
-/* Project 2 card */
-.project-2{
-  border-color: black;
-  border-radius: 1rem;
-  width:800px;
-  height:1000px;
-  background-color: white;
-  grid-area: project-2;
-  
-}
+     /* Project 2 card */
+     .project-2{
+      border-color: black;
+      border-radius: 1rem;
+      width:800px;
+      height:900px;
+      background-color: white;
+      grid-area: project-2;
+    }
+      .macbook-2{
+        padding-top: 60px;
+      }
+        .project-2-title{
+          font-size: 3rem;
+          font-weight: 600;
+          padding-bottom: 30px;
+        }
+          .project-2-desc{
+            font-size: 1.5rem;
+            max-width: 40ch;
+            padding-bottom: 30px;
+          }
 
-/* Project 3 card */
-.project-3{
-  border-color: black;
-  border-radius: 1rem;
-  width:800px;
-  height:1000px;
-  background-color: white;
-  grid-area: project-3;
-  
-}
+     /* Project 3 card */
+     .project-3{
+      border-color: black;
+      border-radius: 1rem;
+      width:800px;
+      height:900px;
+      background-color: white;
+      grid-area: project-3;
+    }
+      .macbook-3{
+        padding-top: 60px;
+      }
+        .project-3-title{
+          font-size: 3rem;
+          font-weight: 600;
+          padding-bottom: 30px;
+        }
+          .project-3-desc{
+            font-size: 1.5rem;
+            max-width: 40ch;
+            padding-bottom: 30px;
+          }
 
-/* Project 4 card */
-.project-4{
-  border-color: black;
-  border-radius: 1rem;
-  width:800px;
-  height:1000px;
-  background-color: white;
-  grid-area: project-4;
-  
-}
+    /* Project 4 card */
+     .project-4{
+      border-color: black;
+      border-radius: 1rem;
+      padding-top: 150px;
+      width:800px;
+      height:900px;
+      background-color: white;
+      grid-area: project-4;
+    }
+      .macbook-4{
+        padding-top: 60px;
+      }
+        .project-4-title{
+          font-size: 3rem;
+          font-weight: 600;
+          padding-bottom: 30px;
+        }
+          .project-4-desc{
+            font-size: 1.5rem;
+            max-width: 40ch;
+            padding-bottom: 30px;
+          }
 
+    /* Project 5 card */
+    .project-5{
+      border-color: black;
+      border-radius: 1rem;
+      padding-top: 150px;
+      width:800px;
+      height:900px;
+      background-color: white;
+      grid-area: project-5;
+    }
+      .macbook-5{
+        padding-top: 60px;
+      }
+        .project-5-title{
+          font-size: 3rem;
+          font-weight: 600;
+          padding-bottom: 30px;
+        }
+          .project-5-desc{
+            font-size: 1.5rem;
+            max-width: 40ch;
+            padding-bottom: 30px;
+          }
 
+    /* Project 6 card */
+    .project-6{
+      border-color: black;
+      border-radius: 1rem;
+      padding-top: 150px;
+      width:800px;
+      height:900px;
+      background-color: white;
+      grid-area: project-6;
+    }
+      .macbook-6{
+        padding-top: 60px;
+      }
+        .project-6-title{
+          font-size: 3rem;
+          font-weight: 600;
+          padding-bottom: 30px;
+        }
+          .project-6-desc{
+            font-size: 1.5rem;
+            max-width: 40ch;
+            padding-bottom: 30px;
+          }
 
 /* Title for technologies section */
 .tech-title{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 6.5rem;
+  letter-spacing: 5px;
   text-align: center;
   align-items: center;
   justify-content: space-around;
@@ -272,6 +373,8 @@ nav{
   color: white;
   background-color:black ;
   display: flex;
+  box-shadow: 00px 50px 70px 70px black; 
+  position: relative;
 }
 
 /* Main container for technologies section */
@@ -287,24 +390,23 @@ nav{
   grid-template-areas:
     "tech-1 tech-2"
     "tech-3 tech-4";
-  padding-top: 20rem;
-  padding-bottom: 20rem;
+  padding-top: 25rem;
+  padding-bottom: 25rem;
 }
-.tech-cont a{
-  text-decoration: none;
-  color: black;
-}
+  .tech-cont a{
+    text-decoration: none;
+    color: black;
+  }
 
-/* Technology 1 card */
-.tech-1{
-  border-color: black;
-  border-radius: 1rem;
-  width:800px;
-  height:1000px;
-  background-color: white;
-  grid-area: tech-1;
-  
-}
+    /* Technology 1 card */
+    .tech-1{
+      border-color: black;
+      border-radius: 1rem;
+      width:800px;
+      height:1000px;
+      background-color: white;
+      grid-area: tech-1; 
+    }
 
 /* Technology 2 card */
 .tech-2{
@@ -345,6 +447,7 @@ nav{
 .contact-title{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 6.5rem;
+  letter-spacing: 5px;
   text-align: center;
   align-items: center;
   justify-content: space-around;
@@ -352,6 +455,8 @@ nav{
   color: white;
   background-color:black ;
   display: flex;
+  box-shadow: 00px 50px 70px 70px black; 
+  position: relative;
 }
 
 /* Main container for contact section */
@@ -366,15 +471,15 @@ nav{
   grid-gap: 1rem;
   grid-template-areas:
     "contact-1 contact-2 contact-3 contact-4";
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 25rem;
+  padding-bottom: 25rem;
 }
 .contact-cont a{
   text-decoration: none;
   color: black;
 }
 
-
+/* contact 1 card */
 .contact-1{
   border-color: black;
   border-radius: 1rem;
@@ -385,6 +490,7 @@ nav{
   
 }
 
+/* contact 2 card */
 .contact-2{
   border-color: black;
   border-radius: 1rem;
@@ -395,6 +501,7 @@ nav{
   
 }
 
+/* contact 3 card */
 .contact-3{
   border-color: black;
   border-radius: 1rem;
@@ -405,6 +512,7 @@ nav{
   
 }
 
+/* contact 4 card */
 .contact-4{
   border-color: black;
   border-radius: 1rem;
@@ -415,7 +523,7 @@ nav{
   
 }
 
-
+/* Main container for footer nav bar */
 .footer-nav{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: 5vh;
@@ -432,6 +540,7 @@ nav{
   letter-spacing: 1px;
 }
 
+/* Footer nav buttons */
 .footer-buttons{
   display: flex;
   justify-content: space-around;
@@ -488,13 +597,14 @@ nav{
   }
 }
 
+/* Top nav buttons responsive adjustment */
 @media screen and (max-width:1024px){
   .nav-buttons{
   width:65%;
   }
 }
 
-
+/* Top nav buttons responsive adjustment */
 @media screen and (max-width:800px){
   body{
     overflow-x: hidden;
