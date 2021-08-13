@@ -40,13 +40,12 @@ nav{
   width: 30%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.nav-buttons a{
-  color: white;
-  letter-spacing: 1px;
-  font-size: 1.7rem;
-  text-decoration: none;
-  
-}
+  .nav-buttons a{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 1.7rem;
+    text-decoration: none;  
+  }
 
 
 
@@ -103,24 +102,23 @@ nav{
   justify-content: space-around;
 }    
 
-/* main container for about me section */
-.about-me-cont{
-  background-image: linear-gradient(45deg,orange, purple);
-  height: 150vh
-}
+  /* main container for about me section */
+  .about-me-cont{
+    background-image: linear-gradient(45deg,orange, purple);
+    height: 150vh
+  }
 
-/* About subheading */
-.about-heading{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 5rem;
-  padding-top: 30rem;
-  padding-bottom: 12rem;
-  color: white;
-  letter-spacing: 4px;  
-  max-width: 60ch;
-  text-align: center;
-  
-}
+  /* About subheading */
+  .about-heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5rem;
+    padding-top: 30rem;
+    padding-bottom: 12rem;
+    color: white;
+    letter-spacing: 4px;  
+    max-width: 60ch;
+    text-align: center;  
+  }
 
 /* About paragraph 1 */
 .about-para-1{
@@ -134,21 +132,26 @@ nav{
     
 }
 
-/* About section, see more button 1 */
-.about-see-1{
-  width: 200px;
-  height: 35px;
-  border: 3px solid white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1.5rem;
-  color: white;
-  letter-spacing: 4px;  
+/* See below first button Container */
+.a-button-container-1{
+  display: flex;
+  align-items: center;
   text-align: center;
+  justify-content: space-around;
 }
-.about-see-1 a{
-  text-decoration: none;
-  color: white;
-}
+/* About section, see more button 1 */
+.see-below-1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    width: 180px;
+    height: 50px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+  }
+    .see-below-1:hover{
+      border: 4px solid white;
+    }
 
 /* About paragraph 2 */
 .about-para-2{
@@ -162,21 +165,26 @@ nav{
   text-align: center;
 }
 
-/* About section, see more button 2 */
-.about-see-2{
-  width: 200px;
-  height: 35px;
-  border: 3px solid white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1.5rem;
-  color: white;
-  letter-spacing: 4px;  
+/* See below second button Container */
+.a-button-container-2{
+  display: flex;
+  align-items: center;
   text-align: center;
+  justify-content: space-around;
 }
-.about-see-2 a{
-  text-decoration: none;
-  color: white;
-}
+/* About section, see more button 2 */
+.see-below-2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    width: 180px;
+    height: 50px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+  }
+    .see-below-2:hover{
+      border: 4px solid white;
+    }
 
 
 
@@ -205,8 +213,8 @@ nav{
   grid-template-areas:
     "project-1 project-2 project-3"
     "project-4 project-5 project-6";
-  padding-top: 20rem;
-  padding-bottom: 20rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
   .project-cont a{
     text-decoration: none;
@@ -215,7 +223,6 @@ nav{
 
     /* Project 1 card */
     .project-1{
-      border-color: black;
       border-radius: 1rem;
       width:550px;
       height:700px;
@@ -231,10 +238,43 @@ nav{
           padding-bottom: 30px;
         }
           .project-1-desc{
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             max-width: 35ch;
             padding-bottom: 30px;
           }
+            .p-button-container-1{
+              padding: 60px 40px;
+              display: flex;
+              text-align: center;
+              flex-direction: row;
+              justify-content: space-around;
+            }
+              .see-live-1{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 1.3rem;
+                width: 180px;
+                height: 50px;
+                border-radius: 0.5rem;
+                color: white;
+                border: none;
+                transition: ease-out 0.2s;
+                background-color: rgb(255, 0, 34);
+              }
+                .see-live-1:hover{
+                  box-shadow: inset 180px 0 0 0 green;
+                }
+              
+              .source-code-1{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 1.3rem;
+                width: 180px;
+                height: 50px;
+                border-radius: 0.5rem;
+                color: white;
+                border: none;
+                background-color: rgb(4, 136, 212);
+              }
+            
 
     /* Project 2 card */
     .project-2{
@@ -254,10 +294,44 @@ nav{
           padding-bottom: 30px;
         }
           .project-2-desc{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             max-width: 35ch;
             padding-bottom: 30px;
           }
+          .p-button-container-2{
+            padding: 60px 40px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            flex-direction: row;
+            justify-content: space-around;
+          }
+            .see-live-2{
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              font-size: 1.3rem;
+              width: 180px;
+              height: 50px;
+              border-radius: 0.5rem;
+              color: white;
+              border: none;
+              transition: ease-out 0.2s;
+              background-color: rgb(255, 0, 34);
+            }
+              .see-live-2:hover{
+                box-shadow: inset 180px 0 0 0 green;
+              }
+            
+            .source-code-2{
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              font-size: 1.3rem;
+              width: 180px;
+              height: 50px;
+              border-radius: 0.5rem;
+              color: white;
+              border: none;
+              background-color: rgb(4, 136, 212);
+            }
+            
 
     /* Project 3 card */
     .project-3{
@@ -277,10 +351,43 @@ nav{
           padding-bottom: 30px;
         }
           .project-3-desc{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             max-width: 40ch;
             padding-bottom: 30px;
           }
+          .p-button-container-3{
+            padding: 60px 40px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            flex-direction: row;
+            justify-content: space-around;
+          }
+            .see-live-3{
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              font-size: 1.3rem;
+              width: 180px;
+              height: 50px;
+              border-radius: 0.5rem;
+              color: white;
+              border: none;
+              transition: ease-out 0.2s;
+              background-color: rgb(255, 0, 34);
+            }
+              .see-live-3:hover{
+                box-shadow: inset 180px 0 0 0 green;
+              }
+            
+            .source-code-3{
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              font-size: 1.3rem;
+              width: 180px;
+              height: 50px;
+              border-radius: 0.5rem;
+              color: white;
+              border: none;
+              background-color: rgb(4, 136, 212);
+            }
 
     /* Project 4 card */
     .project-4{
@@ -300,10 +407,43 @@ nav{
           padding-bottom: 30px;
         }
           .project-4-desc{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             max-width: 40ch;
             padding-bottom: 30px;
           }
+          .p-button-container-4{
+            padding: 60px 40px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            flex-direction: row;
+            justify-content: space-around;
+          }
+            .see-live-4{
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              font-size: 1.3rem;
+              width: 180px;
+              height: 50px;
+              border-radius: 0.5rem;
+              color: white;
+              border: none;
+              transition: ease-out 0.2s;
+              background-color: rgb(255, 0, 34);
+            }
+              .see-live-4:hover{
+                box-shadow: inset 180px 0 0 0 green;
+              }
+            
+            .source-code-4{
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              font-size: 1.3rem;
+              width: 180px;
+              height: 50px;
+              border-radius: 0.5rem;
+              color: white;
+              border: none;
+              background-color: rgb(4, 136, 212);
+            }
 
     /* Project 5 card */
     .project-5{
@@ -323,10 +463,43 @@ nav{
           padding-bottom: 30px;
         }
           .project-5-desc{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             max-width: 40ch;
             padding-bottom: 30px;
           }
+          .p-button-container-5{
+            padding: 60px 40px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            flex-direction: row;
+            justify-content: space-around;
+          }
+            .see-live-5{
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              font-size: 1.3rem;
+              width: 180px;
+              height: 50px;
+              border-radius: 0.5rem;
+              color: white;
+              border: none;
+              transition: ease-out 0.2s;
+              background-color: rgb(255, 0, 34);
+            }
+              .see-live-5:hover{
+                box-shadow: inset 180px 0 0 0 green;
+              }
+            
+            .source-code-5{
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              font-size: 1.3rem;
+              width: 180px;
+              height: 50px;
+              border-radius: 0.5rem;
+              color: white;
+              border: none;
+              background-color: rgb(4, 136, 212);
+            }
 
     /* Project 6 card */
     .project-6{
@@ -350,8 +523,41 @@ nav{
             max-width: 40ch;
             padding-bottom: 30px;
           }
+          .p-button-container-6{
+            padding: 60px 40px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            flex-direction: row;
+            justify-content: space-around;
+          }
+            .see-live-6{
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              font-size: 1.3rem;
+              width: 180px;
+              height: 50px;
+              border-radius: 0.5rem;
+              color: white;
+              border: none;
+              transition: ease-out 0.2s;
+              background-color: rgb(255, 0, 34);
+            }
+              .see-live-6:hover{
+                box-shadow: inset 180px 0 0 0 green;
+              }
+            
+            .source-code-6{
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              font-size: 1.3rem;
+              width: 180px;
+              height: 50px;
+              border-radius: 0.5rem;
+              color: white;
+              border: none;
+              background-color: rgb(4, 136, 212);
+            }
 
-
+            
           
 /* Title for technologies section */
 .tech-title{
@@ -378,8 +584,8 @@ nav{
   grid-template-areas:
     "tech-1 tech-2 tech-3"
     "tech-4 tech-5 tech-6";
-  padding-top: 20rem;
-  padding-bottom: 20rem;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
 }
   .tech-cont a{
     text-decoration: none;
@@ -404,7 +610,7 @@ nav{
           padding-bottom: 30px;
         }
           .tech-1-desc{
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             max-width: 35ch;
             padding-bottom: 30px;
           }
@@ -427,7 +633,7 @@ nav{
           padding-bottom: 30px;
         }
           .tech-2-desc{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             max-width: 35ch;
             padding-bottom: 30px;
           }
@@ -450,7 +656,7 @@ nav{
           padding-bottom: 30px;
         }
           .tech-3-desc{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             max-width: 40ch;
             padding-bottom: 30px;
           }
@@ -473,7 +679,7 @@ nav{
           padding-bottom: 30px;
         }
           .tech-4-desc{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             max-width: 40ch;
             padding-bottom: 30px;
           }
@@ -496,7 +702,7 @@ nav{
           padding-bottom: 30px;
         }
           .tech-5-desc{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             max-width: 40ch;
             padding-bottom: 30px;
           }
@@ -552,8 +758,8 @@ nav{
   grid-gap: 1rem;
   grid-template-areas:
     "contact-1 contact-2 contact-3 contact-4";
-  padding-top: 20rem;
-  padding-bottom: 20rem;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 .contact-cont a{
   text-decoration: none;
