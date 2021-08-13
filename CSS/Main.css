@@ -101,16 +101,12 @@ nav{
   min-height: 30vh;
   align-items: center;
   justify-content: space-around;
-  position: relative;
 }    
-
-
 
 /* main container for about me section */
 .about-me-cont{
   background-image: linear-gradient(45deg,orange, purple);
   height: 150vh
-
 }
 
 /* About subheading */
@@ -195,10 +191,9 @@ nav{
   min-height: 30vh;
   align-items: center;
   justify-content: space-around; 
-  position: relative;
 }    
 
-/* Title for project section */
+/* Main container for project section */
 .project-cont{
   background-color: rgb(238, 237, 237);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -241,8 +236,8 @@ nav{
             padding-bottom: 30px;
           }
 
-     /* Project 2 card */
-     .project-2{
+    /* Project 2 card */
+    .project-2{
       border-color: black;
       border-radius: 1rem;
       width:550px;
@@ -264,8 +259,8 @@ nav{
             padding-bottom: 30px;
           }
 
-     /* Project 3 card */
-     .project-3{
+    /* Project 3 card */
+    .project-3{
       border-color: black;
       border-radius: 1rem;
       width:550px;
@@ -288,7 +283,7 @@ nav{
           }
 
     /* Project 4 card */
-     .project-4{
+    .project-4{
       border-color: black;
       border-radius: 1rem;
       width:550px;
@@ -356,34 +351,33 @@ nav{
             padding-bottom: 30px;
           }
 
+
+          
 /* Title for technologies section */
 .tech-title{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 6.5rem;
   letter-spacing: 5px;
-  text-align: center;
-  align-items: center;
-  justify-content: space-around;
-  min-height: 35vh;
-  color: white;
-  background-color:black ;
   display: flex;
-  position: relative;
-}
+  background-color: black;
+  color: white;
+  min-height: 30vh;
+  align-items: center;
+  justify-content: space-around; 
+}    
 
 /* Main container for technologies section */
 .tech-cont{
   background-color: rgb(238, 237, 237);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
-  font-size: 3rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-gap: 10rem;
+  grid-gap: 3rem;
   grid-template-areas:
-    "tech-1 tech-2"
-    "tech-3 tech-4";
+    "tech-1 tech-2 tech-3"
+    "tech-4 tech-5 tech-6";
   padding-top: 20rem;
   padding-bottom: 20rem;
 }
@@ -392,48 +386,143 @@ nav{
     color: black;
   }
 
-    /* Technology 1 card */
+    /* Tech 1 card */
     .tech-1{
       border-color: black;
       border-radius: 1rem;
-      width:800px;
-      height:1000px;
+      width:550px;
+      height:700px;
       background-color: white;
-      grid-area: tech-1; 
+      grid-area: tech-1;
     }
+      .tech-icon-1{
+        padding-top: 60px;
+      }
+        .tech-1-title{
+          font-size: 2.5rem;
+          font-weight: 600;
+          padding-bottom: 30px;
+        }
+          .tech-1-desc{
+            font-size: 1.3rem;
+            max-width: 35ch;
+            padding-bottom: 30px;
+          }
 
-/* Technology 2 card */
-.tech-2{
-  border-color: black;
-  border-radius: 1rem;
-  width:800px;
-  height:1000px;
-  background-color: white;
-  grid-area: tech-2;
-  
-}
+    /* Tech 2 card */
+    .tech-2{
+      border-color: black;
+      border-radius: 1rem;
+      width:550px;
+      height:700px;
+      background-color: white;
+      grid-area: tech-2;
+    }
+      .tech-icon-2{
+        padding-top: 60px;
+      }
+        .tech-2-title{
+          font-size: 2.5rem;
+          font-weight: 600;
+          padding-bottom: 30px;
+        }
+          .tech-2-desc{
+            font-size: 1.5rem;
+            max-width: 35ch;
+            padding-bottom: 30px;
+          }
 
-/* Technology 3 card */
-.tech-3{
-  border-color: black;
-  border-radius: 1rem;
-  width:800px;
-  height:1000px;
-  background-color: white;
-  grid-area: tech-3;
-  
-}
+    /* Tech 3 card */
+    .tech-3{
+      border-color: black;
+      border-radius: 1rem;
+      width:550px;
+      height:700px;
+      background-color: white;
+      grid-area: tech-3;
+    }
+      .tech-icon-3{
+        padding-top: 60px;
+      }
+        .tech-3-title{
+          font-size: 2.5rem;
+          font-weight: 600;
+          padding-bottom: 30px;
+        }
+          .tech-3-desc{
+            font-size: 1.5rem;
+            max-width: 40ch;
+            padding-bottom: 30px;
+          }
 
-/* Technology 4 card */
-.tech-4{
-  border-color: black;
-  border-radius: 1rem;
-  width:800px;
-  height:1000px;
-  background-color: white;
-  grid-area: tech-4;
-  
-}
+    /* Tech 4 card */
+    .tech-4{
+      border-color: black;
+      border-radius: 1rem;
+      width:550px;
+      height:700px;
+      background-color: white;
+      grid-area: tech-4;
+    }
+      .tech-icon-4{
+        padding-top: 60px;
+      }
+        .tech-4-title{
+          font-size: 2.5rem;
+          font-weight: 600;
+          padding-bottom: 30px;
+        }
+          .tech-4-desc{
+            font-size: 1.5rem;
+            max-width: 40ch;
+            padding-bottom: 30px;
+          }
+
+    /* Tech 5 card */
+    .tech-5{
+      border-color: black;
+      border-radius: 1rem;
+      width:550px;
+      height:700px;
+      background-color: white;
+      grid-area: tech-5;
+    }
+      .tech-icon-5{
+        padding-top: 60px;
+      }
+        .tech-5-title{
+          font-size: 2.5rem;
+          font-weight: 550;
+          padding-bottom: 30px;
+        }
+          .tech-5-desc{
+            font-size: 1.5rem;
+            max-width: 40ch;
+            padding-bottom: 30px;
+          }
+
+    /* Tech 6 card */
+    .tech-6{
+      border-color: black;
+      border-radius: 1rem;
+      width:550px;
+      height:700px;
+      background-color: white;
+      grid-area: tech-6;
+    }
+      .tech-icon-6{
+        padding-top: 60px;
+      }
+        .tech-6-title{
+          font-size: 2.5rem;
+          font-weight: 600;
+          padding-bottom: 30px;
+        }
+          .tech-6-desc{
+            font-size: 1.2rem;
+            max-width: 40ch;
+            padding-bottom: 30px;
+          }
 
 
 
@@ -449,7 +538,6 @@ nav{
   color: white;
   background-color:black ;
   display: flex;
-  position: relative;
 }
 
 /* Main container for contact section */
