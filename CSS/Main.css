@@ -101,7 +101,6 @@ nav{
   min-height: 30vh;
   align-items: center;
   justify-content: space-around;
-  box-shadow: 00px 70px 70px 70px black; 
   position: relative;
 }    
 
@@ -195,8 +194,7 @@ nav{
   color: white;
   min-height: 30vh;
   align-items: center;
-  justify-content: space-around;
-  box-shadow: 00px 50px 70px 70px black; 
+  justify-content: space-around; 
   position: relative;
 }    
 
@@ -370,7 +368,6 @@ nav{
   color: white;
   background-color:black ;
   display: flex;
-  box-shadow: 00px 50px 70px 70px black; 
   position: relative;
 }
 
@@ -452,7 +449,6 @@ nav{
   color: white;
   background-color:black ;
   display: flex;
-  box-shadow: 00px 50px 70px 70px black; 
   position: relative;
 }
 
