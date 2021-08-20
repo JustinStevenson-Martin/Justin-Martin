@@ -208,8 +208,7 @@ nav{
 
 /* Main container for project section */
 .project-cont{
-  background-image: url(../images/triangles.png);
-  background-repeat: repeat;
+  background-image: repeating-radial-gradient(white,grey);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   display: grid;
