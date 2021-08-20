@@ -228,6 +228,7 @@ nav{
 
     /* Project 1 card */
     .project-1{
+      border: 3px solid gray;
       border-radius: 0.5rem;
       width:550px;
       height:700px;
@@ -285,7 +286,7 @@ nav{
 
     /* Project 2 card */
     .project-2{
-      border-color: black;
+      border: 3px solid gray;
       border-radius: 0.5rem;
       width:550px;
       height:700px;
@@ -344,7 +345,7 @@ nav{
 
     /* Project 3 card */
     .project-3{
-      border-color: black;
+      border: 3px solid gray;
       border-radius: 0.5rem;
       width:550px;
       height:700px;
@@ -402,7 +403,7 @@ nav{
 
     /* Project 4 card */
     .project-4{
-      border-color: black;
+      border: 3px solid gray;
       border-radius: 0.5rem;
       width:550px;
       height:700px;
@@ -460,7 +461,7 @@ nav{
 
     /* Project 5 card */
     .project-5{
-      border-color: black;
+      border: 3px solid gray;
       border-radius: 0.5rem;
       width:550px;
       height:700px;
@@ -518,7 +519,7 @@ nav{
 
     /* Project 6 card */
     .project-6{
-      border-color: black;
+      border: 3px solid gray;
       border-radius: 0.5rem;
       width:550px;
       height:700px;
