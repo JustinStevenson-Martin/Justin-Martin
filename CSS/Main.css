@@ -215,7 +215,7 @@ nav{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-gap: 5rem;
+  grid-row-gap: 7.5vh;
   grid-template-areas:
     "project-1 project-2 project-3"
     "project-4 project-5 project-6";
@@ -611,7 +611,7 @@ nav{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-gap: 3rem;
+  grid-row-gap: 7.5vh;
   grid-template-areas:
     "tech-1 tech-2 tech-3"
     "tech-4 tech-5 tech-6";
