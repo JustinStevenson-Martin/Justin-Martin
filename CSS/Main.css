@@ -919,6 +919,37 @@ nav{
   }
 }
 
+@media screen and (max-width:2560px){
+  .project-cont{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "project-1 project-2 project-3 project-4"
+    "project-5 project-6";
+    grid-column-gap: 1rem;
+    
+  }
+  .tech-cont{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "tech-1 tech-2 tech-3 tech-4"
+    "tech-5 tech-6";
+    grid-column-gap: 1rem;
+    
+  }
+  .contact-cont{
+    grid-template-columns: 4fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "contact-1"
+    "contact-2"
+    "contact-3" 
+    "contact-4";
+    grid-gap: 10rem;
+  }
+}
+
 /* Top nav buttons responsive adjustment */
 @media screen and (max-width:1024px){
   .nav-buttons{
