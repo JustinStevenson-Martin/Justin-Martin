@@ -208,7 +208,7 @@ nav{
 
 /* Main container for project section */
 .project-cont{
-  background-image: repeating-radial-gradient(black,grey);
+  background-image: repeating-linear-gradient(45deg, white, grey );
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   display: grid;
