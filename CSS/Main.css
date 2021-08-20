@@ -208,7 +208,7 @@ nav{
 
 /* Main container for project section */
 .project-cont{
-  background-image: url(../images/dark_y.png);
+  background-image: url(../images/triangles.png);
   background-repeat: repeat;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
@@ -232,7 +232,7 @@ nav{
       border-radius: 0.5rem;
       width:550px;
       height:700px;
-      background-color: rgb(75, 75, 75);
+      background-color: rgb(50, 50, 50);
       grid-area: project-1;
     }
       .macbook-1{
@@ -292,7 +292,7 @@ nav{
       border-radius: 0.5rem;
       width:550px;
       height:700px;
-      background-color: rgb(75, 75, 75);
+      background-color: rgb(50, 50, 50);
       grid-area: project-2;
     }
       .macbook-2{
@@ -353,7 +353,7 @@ nav{
       border-radius: 0.5rem;
       width:550px;
       height:700px;
-      background-color: rgb(75, 75, 75);
+      background-color: rgb(50, 50, 50);
       grid-area: project-3;
     }
       .macbook-3{
@@ -413,7 +413,7 @@ nav{
       border-radius: 0.5rem;
       width:550px;
       height:700px;
-      background-color: rgb(75, 75, 75);
+      background-color: rgb(50, 50, 50);
       grid-area: project-4;
     }
       .macbook-4{
@@ -473,7 +473,7 @@ nav{
       border-radius: 0.5rem;
       width:550px;
       height:700px;
-      background-color: rgb(75, 75, 75);
+      background-color: rgb(50, 50, 50);
       grid-area: project-5;
     }
       .macbook-5{
@@ -533,7 +533,7 @@ nav{
       border-radius: 0.5rem;
       width:550px;
       height:700px;
-      background-color: rgb(75, 75, 75);
+      background-color: rgb(50, 50, 50);
       grid-area: project-6;
     }
       .macbook-6{
