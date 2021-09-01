@@ -306,7 +306,7 @@ nav{
   font-size: 6.5rem;
   letter-spacing: 5px;
   display: flex;
-  background-color: black;
+  background-color: rgb(15, 15, 15);
   color: white;
   min-height: 30vh;
   align-items: center;
@@ -315,7 +315,7 @@ nav{
 
 /* Main container for project section */
 .project-cont{
-  background-image: repeating-linear-gradient(45deg, white, grey );
+  background-color: rgb(15, 15, 15);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   display: grid;
@@ -733,7 +733,7 @@ nav{
   font-size: 6.5rem;
   letter-spacing: 5px;
   display: flex;
-  background-color: black;
+  background-color: rgb(15, 15, 15);
   color: white;
   min-height: 30vh;
   align-items: center;
@@ -742,7 +742,7 @@ nav{
 
 /* Main container for technologies section */
 .tech-cont{
-  background-image: url(../images/funky_lines.png);
+  background-color: rgb(15, 15, 15);
   background-repeat: repeat;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
@@ -951,7 +951,7 @@ nav{
   justify-content: space-around;
   min-height: 35vh;
   color: white;
-  background-color:black ;
+  background-color: rgb(15, 15, 15);
   display: flex;
 }
 
@@ -960,16 +960,15 @@ nav{
   background-color: rgb(228, 228, 228);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: 60vh;
-  display: grid;
+  display: flex;
   color: white;
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 
   .email-form{
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(15, 15, 15);
     grid-row-start: 1;
-    grid-row-end: 3;
     grid-column: 1/2;
     height: 700px;
     width: 1200px;
@@ -981,7 +980,6 @@ nav{
       font-size: 4rem;
       text-align: center;
       margin-top: 50px;
-
     }
     
     label{
@@ -996,8 +994,8 @@ nav{
       width: 500px;
       height: 30px;
       display: block;
-      text-align: center;
-      font-size: 1.2rem;
+      padding-left: 10px;
+      font-size: 1.3rem;
     }
 
     textarea{
@@ -1006,6 +1004,7 @@ nav{
       width: 1000px;
       height: 200px;
       display: block;
+      padding-left: 10px;
       font-size: 1.3rem;
     }
     .submit-btn{
@@ -1018,7 +1017,7 @@ nav{
       color: white;
       border: white solid 0.2rem;
       transition: ease-out 0.2s;
-      background-color: rgb(20, 20, 20);
+      background-color: rgb(15, 15, 15);
       display: block;
       cursor: pointer;
     }
@@ -1027,35 +1026,36 @@ nav{
         border: green solid 0.2rem;
       }
 
-  .contact-phone{
-    background-color: grey;
-    grid-column: 2/3;
-    grid-row: 1;
+  .faq-cont{
+    background-color: rgb(15, 15, 15);
+    grid-row-start: 1;
+    grid-column: 1/2;
+    height: 700px;
+    width: 1200px;
+    display: block;
   }
+    .faq-header{
+      color: white;
+      font-size: 4rem;
+      text-align: center;
+      margin-top: 50px;
+    }
+      .faq-list{
+        padding-left: 100px;
+        color: white;
+        font-size: 2rem;
+        text-align: left;
+        margin-top: 50px;
+        text-decoration: none;
+        list-style: none;
+      }
 
-  .contact-linkedin{
-    background-color: grey;
-    grid-column: 3/4;
-    grid-row: 1;
-  }
-
-  .contact-github{
-    background-color: grey;
-    grid-column: 2/3;
-    grid-row: 2;
-  }
-
-  .contact-twitter{
-    background-color: grey;
-    grid-column: 3/4;
-    grid-row: 2;
-  }
 
 /* Main container for footer nav bar */
 .footer-nav{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: 5vh;
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(15, 15, 15);
   text-align: center;
   display: flex;
   list-style: none;
