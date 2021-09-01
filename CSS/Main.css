@@ -114,7 +114,7 @@ nav{
 
 .gradient-nav{
   background-image: linear-gradient(45deg,rgb(174, 0, 255), rgb(132, 0, 255));
-  height: 0.3vh;
+  height: 0.2vh;
 }
 
 
@@ -143,7 +143,7 @@ nav{
 }
 
 .social-nav{
-  left: 0px;
+  left: 1px;
   top: 300px;
   position:fixed;
   border: none;
@@ -957,18 +957,17 @@ nav{
 
 /* Main container for contact section */
 .contact-cont{
-  background-color: rgb(228, 228, 228);
+  background-color: rgb(15, 15, 15);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  height: 60vh;
+  height: 1000px;
   display: flex;
   color: white;
-  grid-template-columns: 2fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 
   .email-form{
     background-color: rgb(15, 15, 15);
-    grid-row-start: 1;
     grid-column: 1/2;
     height: 700px;
     width: 1200px;
@@ -1028,7 +1027,6 @@ nav{
 
   .faq-cont{
     background-color: rgb(15, 15, 15);
-    grid-row-start: 1;
     grid-column: 1/2;
     height: 700px;
     width: 1200px;
@@ -1050,6 +1048,10 @@ nav{
         list-style: none;
       }
 
+.gradient-footer{
+  background-image: linear-gradient(45deg,rgb(174, 0, 255), rgb(132, 0, 255));
+  height: 0.2vh;
+}
 
 /* Main container for footer nav bar */
 .footer-nav{
