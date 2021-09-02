@@ -20,7 +20,7 @@ nav{
   background-color: rgb(20, 20, 20);
   min-height: 7vh;
 }
-  .about{
+  #AboutBtn{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.3rem;
     letter-spacing: 0.2rem;
@@ -33,11 +33,11 @@ nav{
     transition: ease-out 0.5s;
     background-color: rgb(20, 20, 20);
   }
-    .about:hover{
+    #AboutBtn:hover{
       background-image: linear-gradient(45deg,rgb(174, 0, 255), rgb(132, 0, 255));
     }
 
-  .projects{
+  #ProjectsBtn{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.3rem;
     letter-spacing: 0.2rem;
@@ -50,11 +50,11 @@ nav{
     transition: ease-out 0.5s;
     background-color: rgb(20, 20, 20);
   }
-    .projects:hover{
+    #ProjectsBtn:hover{
       background-image: linear-gradient(45deg,rgb(174, 0, 255), rgb(132, 0, 255));
     }
 
-    .technology{
+    #TechnologyBtn{
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       font-size: 1.3rem;
       letter-spacing: 0.2rem;
@@ -67,11 +67,11 @@ nav{
       transition: ease-out 0.5s;
       background-color: rgb(20, 20, 20);
     }
-      .technology:hover{
+      #TechnologyBtn:hover{
         background-image: linear-gradient(45deg,rgb(174, 0, 255), rgb(132, 0, 255));
       }
 
-      .contact{
+      #ContactBtn{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 1.3rem;
         letter-spacing: 0.2rem;
@@ -84,7 +84,7 @@ nav{
         transition: ease-out 0.5s;
         background-color: rgb(20, 20, 20);
       }
-        .contact:hover{
+        #ContactBtn:hover{
           background-image: linear-gradient(45deg,rgb(174, 0, 255), rgb(132, 0, 255));
         }
 
