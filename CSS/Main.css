@@ -17,7 +17,7 @@ nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(30, 30, 30);
   min-height: 7vh;
 }
   #AboutBtn{
@@ -31,10 +31,10 @@ nav{
     color: white;
     border: none;
     transition: ease-out 0.5s;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(30, 30, 30);
   }
     #AboutBtn:hover{
-      background-image: linear-gradient(45deg,rgb(174, 0, 255), rgb(132, 0, 255));
+      background-color: rgb(26, 92, 121);
     }
 
   #ProjectsBtn{
@@ -48,10 +48,10 @@ nav{
     color: white;
     border: none;
     transition: ease-out 0.5s;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(30, 30, 30);
   }
     #ProjectsBtn:hover{
-      background-image: linear-gradient(45deg,rgb(174, 0, 255), rgb(132, 0, 255));
+      background-color: rgb(26, 92, 121);
     }
 
     #TechnologyBtn{
@@ -65,28 +65,28 @@ nav{
       color: white;
       border: none;
       transition: ease-out 0.5s;
-      background-color: rgb(20, 20, 20);
+      background-color: rgb(30, 30, 30);
     }
       #TechnologyBtn:hover{
-        background-image: linear-gradient(45deg,rgb(174, 0, 255), rgb(132, 0, 255));
+        background-color: rgb(26, 92, 121);
       }
 
-      #ContactBtn{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 1.3rem;
-        letter-spacing: 0.2rem;
-        cursor: pointer;  
-        width: 150px;
-        height: 40px;
-        border-radius: 2rem;
-        color: white;
-        border: none;
-        transition: ease-out 0.5s;
-        background-color: rgb(20, 20, 20);
+    #ContactBtn{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 1.3rem;
+      letter-spacing: 0.2rem;
+      cursor: pointer;  
+      width: 150px;
+      height: 40px;
+      border-radius: 2rem;
+      color: white;
+      border: none;
+      transition: ease-out 0.5s;
+      background-color: rgb(30, 30, 30);
+    }
+      #ContactBtn:hover{
+        background-color: rgb(26, 92, 121);
       }
-        #ContactBtn:hover{
-          background-image: linear-gradient(45deg,rgb(174, 0, 255), rgb(132, 0, 255));
-        }
 
 
 /* Top left nav bar text */
@@ -113,8 +113,8 @@ nav{
   
 
 .gradient-nav{
-  background-image: linear-gradient(45deg,rgb(174, 0, 255), rgb(132, 0, 255));
-  height: 0.2vh;
+  background-color: rgb(26, 92, 121);
+  height: 0.5vh;
 }
 
 
@@ -123,7 +123,7 @@ nav{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   justify-content: center;
   height: 92vh;
-  background-color: rgb(15, 15, 15);
+  background-color: rgb(245, 240, 230);
   background-image: url(../images/logo.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -161,7 +161,7 @@ nav{
     border: none;
     cursor: pointer;
     transition: ease-out 0.2s;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(30, 30, 30);
   }
     #BackTop:hover{ 
       box-shadow: inset 0 -110px 0 0 green;
@@ -175,7 +175,7 @@ nav{
   font-size: 6.5rem;
   letter-spacing: 5px;
   display: flex;
-  background-color: rgb(15, 15, 15);
+  background-color: rgb(30, 30, 30);
   color: white;
   min-height: 30vh;
   align-items: center;
@@ -184,7 +184,7 @@ nav{
 
   /* main container for about me section */
   .about-me-cont{
-    background-image: linear-gradient(45deg,orange, purple);
+    background-color: rgb(245, 240, 230);
     height: 2000px;
   }
 
@@ -194,7 +194,7 @@ nav{
     font-size: 5rem;
     padding-top: 300px;
     padding-bottom: 100px;
-    color: white;
+    color: rgb(26, 92, 121);
     letter-spacing: 4px;  
     max-width: 60ch;
     text-align: center;  
@@ -205,8 +205,9 @@ nav{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 2rem;
   padding-bottom: 100px;
-  color: white;
-  letter-spacing: 4px;
+  font-weight: 500;
+  color: rgb(26, 92, 121);
+  letter-spacing: 3px;
   max-width: 70ch;
   text-align: center
 }
@@ -223,24 +224,26 @@ nav{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.2rem;
     width: 180px;
+    font-weight: 500;
     height: 50px;
-    color: white;
+    color: rgb(26, 92, 121);
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid white;
+    border: 2px solid rgb(26, 92, 121);
   }
     .see-below-1:hover{
-      border: 4px solid white;
+      border: 4px solid rgb(26, 92, 121);
     }
 
 /* About paragraph 2 */
 .about-para-2{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 2rem;
+  font-weight: 500;
   padding-top: 100px;
   padding-bottom: 100px;
-  color: white;
-  letter-spacing: 4px;
+  color: rgb(26, 92, 121);
+  letter-spacing: 3px;
   max-width: 70ch;
   text-align: center;
 }
@@ -257,14 +260,15 @@ nav{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.2rem;
     width: 180px;
+    font-weight: 500;
     height: 50px;
-    color: white;
+    color: rgb(26, 92, 121);
     background-color: transparent;
-    border: 2px solid white;
+    border: 2px solid rgb(26, 92, 121);
     cursor: pointer;
   }
     .see-below-2:hover{
-      border: 4px solid white;
+      border: 4px solid rgb(26, 92, 121);
     }
 
 .cv-title{
@@ -272,26 +276,22 @@ nav{
   font-size: 5rem;
   padding-top: 100px;
   padding-bottom: 50px;
-  color: white;
-  letter-spacing: 4px;
+  color: rgb(26, 92, 121);
+  letter-spacing: 3px;
   max-width: 60ch;
   text-align: center;
 }
   .cv-desc{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.5rem;
-    color: white;
-    letter-spacing: 1px;
+    color: rgb(26, 92, 121);
+    letter-spacing: 2px;
+    font-weight: 500;
     padding-bottom: 50px;
     max-width: 70ch;
     text-align: center;
   }  
     .cv{
-      text-decoration: none;
-      color: white;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      font-size: 2rem;
-      align-items: center;
       display: grid;
       text-align: center;
       cursor: pointer;
@@ -306,7 +306,7 @@ nav{
   font-size: 6.5rem;
   letter-spacing: 5px;
   display: flex;
-  background-color: rgb(15, 15, 15);
+  background-color: rgb(30, 30, 30);
   color: white;
   min-height: 30vh;
   align-items: center;
@@ -315,7 +315,7 @@ nav{
 
 /* Main container for project section */
 .project-cont{
-  background-color: rgb(15, 15, 15);
+  background-color: rgb(245, 240, 230);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   display: grid;
@@ -335,29 +335,32 @@ nav{
 
     /* Project 1 card */
     .project-1{
-      border: 3px solid gray;
+      
       border-radius: 0.5rem;
       width:550px;
       height:700px;
-      background-color: rgb(245, 245, 245);
+      background-color: rgb(245, 240, 230);
       grid-area: project-1;
     }
       .macbook-1{
         padding-top: 60px;
       }
         .project-1-title{
+          color: rgb(26, 92, 121);
           font-size: 2.5rem;
           font-weight: 600;
           padding-bottom: 15px;
         }
           .project-1-line{
-            background-color: black;
+            background-color: rgb(26, 92, 121);
             height: 3px;
             width: 400px;
             border-radius: 1rem;
           }
             .project-1-desc{
+              color: rgb(26, 92, 121);
               padding-top: 40px;
+              font-weight: 500;
               font-size: 1.2rem;
               max-width: 35ch;
               padding-bottom: 10px;
@@ -401,7 +404,7 @@ nav{
 
     /* Project 2 card */
     .project-2{
-      border: 3px solid gray;
+      border: 3px solid rgb(26, 92, 121);
       border-radius: 0.5rem;
       width:550px;
       height:700px;
@@ -412,18 +415,21 @@ nav{
         padding-top: 60px;
       }
         .project-2-title{
+          color: rgb(26, 92, 121);
           font-size: 2.5rem;
           font-weight: 600;
           padding-bottom: 15px;
         }
           .project-2-line{
-            background-color: black;
+            background-color: rgb(26, 92, 121);
             height: 3px;
             width: 400px;
             border-radius: 1rem;
           }
             .project-2-desc{
+              color: rgb(26, 92, 121);
               padding-top: 40px;
+              font-weight: 500;
               font-size: 1.2rem;
               max-width: 35ch;
               padding-bottom: 60px;
@@ -467,29 +473,32 @@ nav{
 
     /* Project 3 card */
     .project-3{
-      border: 3px solid gray;
+      border: 3px solid rgb(26, 92, 121);
       border-radius: 0.5rem;
       width:550px;
       height:700px;
-      background-color: rgb(245, 245, 245);
+      background-color: rgb(30, 30, 30);
       grid-area: project-3;
     }
       .macbook-3{
         padding-top: 60px;
       }
         .project-3-title{
+          color: white;
           font-size: 2.5rem;
           font-weight: 600;
           padding-bottom: 15px;
         }
           .project-3-line{
-            background-color: black;
+            background-color: white;
             height: 3px;
             width: 400px;
             border-radius: 1rem;
           }
             .project-3-desc{
+              color: white;
               padding-top: 40px;
+              font-weight: 500;
               font-size: 1.2rem;
               max-width: 35ch;
               padding-bottom: 60px;
@@ -555,6 +564,7 @@ nav{
           }
             .project-4-desc{
               padding-top: 40px;
+              font-weight: 500;
               font-size: 1.2rem;
               max-width: 35ch;
               padding-bottom: 90px;
@@ -620,6 +630,7 @@ nav{
           }
             .project-5-desc{
               padding-top: 40px;
+              font-weight: 500;
               font-size: 1.2rem;
               max-width: 35ch;
               padding-bottom: 90px;
@@ -686,6 +697,7 @@ nav{
           }
             .project-6-desc{
               padding-top: 40px;
+              font-weight: 500;
               font-size: 1.2rem;
               max-width: 35ch;
               padding-bottom: 90px;
@@ -733,7 +745,7 @@ nav{
   font-size: 6.5rem;
   letter-spacing: 5px;
   display: flex;
-  background-color: rgb(15, 15, 15);
+  background-color: rgb(30, 30, 30);
   color: white;
   min-height: 30vh;
   align-items: center;
@@ -742,7 +754,7 @@ nav{
 
 /* Main container for technologies section */
 .tech-cont{
-  background-color: rgb(15, 15, 15);
+  background-color: rgb(30, 30, 30);
   background-repeat: repeat;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
@@ -766,12 +778,12 @@ nav{
       border: 3px solid gray;
       border-radius: 0.5rem;
       width:550px;
-      height:750px;
+      height:600px;
       background-color: white;
       grid-area: tech-1;
     }
       .tech-icon-1{
-        padding-top: 60px;
+        padding-top: 30px;
       }
         .tech-1-title{
           font-size: 2.5rem;
@@ -784,24 +796,18 @@ nav{
           width: 400px;
           border-radius: 1rem;
         }
-          .tech-1-desc{
-            padding-top: 40px;
-            font-size: 1.2rem;
-            max-width: 35ch;
-            padding-bottom: 30px;
-          }
 
     /* Tech 2 card */
     .tech-2{
       border: 3px solid gray;
       border-radius: 0.5rem;
       width:550px;
-      height:750px;
+      height:600px;
       background-color: white;
       grid-area: tech-2;
     }
       .tech-icon-2{
-        padding-top: 60px;
+        padding-top: 30px;
       }
         .tech-2-title{
           font-size: 2.5rem;
@@ -814,24 +820,18 @@ nav{
             width: 400px;
             border-radius: 1rem;
           }
-            .tech-2-desc{
-              padding-top: 40px;
-              font-size: 1.2rem;
-              max-width: 35ch;
-              padding-bottom: 30px;
-            }
 
     /* Tech 3 card */
     .tech-3{
       border: 3px solid gray;
       border-radius: 0.5rem;
       width:550px;
-      height:750px;
+      height:600px;
       background-color: white;
       grid-area: tech-3;
     }
       .tech-icon-3{
-        padding-top: 60px;
+        padding-top: 30px;
       }
         .tech-3-title{
           font-size: 2.5rem;
@@ -844,24 +844,18 @@ nav{
             width: 400px;
             border-radius: 1rem;
           }
-            .tech-3-desc{
-              padding-top: 40px;
-              font-size: 1.2rem;
-              max-width: 35ch;
-              padding-bottom: 30px;
-            }
 
     /* Tech 4 card */
     .tech-4{
       border: 3px solid gray;
       border-radius: 0.5rem;
       width:550px;
-      height:750px;
+      height:600px;
       background-color: white;
       grid-area: tech-4;
     }
       .tech-icon-4{
-        padding-top: 60px;
+        padding-top: 30px;
       }
         .tech-4-title{
           font-size: 2.5rem;
@@ -874,24 +868,18 @@ nav{
             width: 400px;
             border-radius: 1rem;
           }
-            .tech-4-desc{
-              padding-top: 40px;
-              font-size: 1.2rem;
-              max-width: 35ch;
-              padding-bottom: 30px;
-            }
 
     /* Tech 5 card */
     .tech-5{
       border: 3px solid gray;
       border-radius: 0.5rem;
       width:550px;
-      height:750px;
+      height:600px;
       background-color: white;
       grid-area: tech-5;
     }
       .tech-icon-5{
-        padding-top: 60px;
+        padding-top: 30px;
       }
         .tech-5-title{
           font-size: 2.5rem;
@@ -904,24 +892,18 @@ nav{
             width: 400px;
             border-radius: 1rem;
           }
-            .tech-5-desc{
-              padding-top: 40px;
-              font-size: 1.2rem;
-              max-width: 35ch;
-              padding-bottom: 30px;
-            }
 
     /* Tech 6 card */
     .tech-6{
       border: 3px solid gray;
       border-radius: 0.5rem;
       width:550px;
-      height:750px;
+      height:600px;
       background-color: white;
       grid-area: tech-6;
     }
       .tech-icon-6{
-        padding-top: 60px;
+        padding-top: 30px;
       }
         .tech-6-title{
           font-size: 2.5rem;
@@ -934,12 +916,6 @@ nav{
             width: 400px;
             border-radius: 1rem;
           }
-            .tech-6-desc{
-              padding-top: 40px;
-              font-size: 1.2rem;
-              max-width: 35ch;
-              padding-bottom: 30px;
-            }
 
 
 /* Title for contact section */
