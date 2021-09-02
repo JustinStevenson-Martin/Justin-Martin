@@ -153,7 +153,7 @@ nav{
 
 /* Bottom left return to top button */
   #BackTop{
-    right: 17px;
+    right: 0px;
     bottom: 0px;
     border-top-left-radius: 15px;
     padding: 20px 30px;
@@ -1179,5 +1179,4 @@ html ,body{
   height:100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
 }
