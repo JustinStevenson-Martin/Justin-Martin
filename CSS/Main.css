@@ -126,7 +126,7 @@ nav{
   font-size: 6.5rem;
   letter-spacing: 5px;
   color: rgb(245, 240, 230);
-  text-shadow: -3px -3px 0 rgb(26, 92, 121), 3px -3px 0 rgb(26, 92, 121), -3px 3px 0 rgb(26, 92, 121), 3px 3px 0 rgb(26, 92, 121);
+  text-shadow: -3px -3px 0 rgb(30, 30, 30), 3px -3px 0 rgb(30, 30, 30), -3px 3px 0 rgb(30, 30, 30), 3px 3px 0 rgb(30, 30, 30);
   height: 1200px;
   background-color: rgb(245, 240, 230);
   background-image: url(../images/Rain-forest.jpg);
