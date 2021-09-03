@@ -11,7 +11,6 @@ a:hover {
   cursor: pointer;
 }
 
-
 /* Top nav bar container */
 nav{
   display: flex;
@@ -28,7 +27,7 @@ nav{
     width: 150px;
     height: 40px;
     border-radius: 2rem;
-    color: white;
+    color: rgb(245, 240, 230);
     border: none;
     transition: ease-out 0.5s;
     background-color: rgb(30, 30, 30);
@@ -97,7 +96,7 @@ nav{
   letter-spacing: 4px;
   padding-left: 50px;
   padding-right: 50px;
-  color: white;
+  color: rgb(245, 240, 230);
 }
 
 /* Top right nav bar buttons */
@@ -120,7 +119,6 @@ nav{
 
 /* Landing screen container */
 .landing-screen{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   justify-content: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 6.5rem;
@@ -973,8 +971,8 @@ nav{
       height: 50px;
       margin-top: 2rem;
       border-radius: 0.5rem;
-      color: white;
-      border: white solid 0.2rem;
+      color: rgb(245, 240, 230);
+      border: rgb(245, 240, 230) solid 0.2rem;
       transition: ease-out 0.2s;
       background-color: rgb(30, 30, 30);
       display: block;
@@ -1025,7 +1023,7 @@ nav{
 }
 .footer-nav a{
   text-decoration: none;
-  color: white;
+  color: rgb(245, 240, 230);
   font-size: 1rem;
   letter-spacing: 1px;
 }
