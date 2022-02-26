@@ -16,12 +16,12 @@ nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(15, 15, 15);
-  min-height: 10vh;
+  background-color: rgb(0, 153, 255);
+  height: 10%;
 }
   #AboutBtn{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     letter-spacing: 0.2rem;
     cursor: pointer;
     width: 150px;
@@ -30,17 +30,17 @@ nav{
     color: rgb(255, 255, 255);
     border: none;
     transition: ease-out 0.3s;
-    background-color: blueviolet;
+    background-color: rgb(0, 153, 255);
   }
     #AboutBtn:hover{
       background-color: rgb(255, 255, 255);
-      color: blueviolet;
-      border: 3px solid blueviolet;
+      color: rgb(0, 153, 255);
+      border: 3px solid rgb(0, 153, 255);
     }
 
-  #ProjectsBtn{
+  #WorkBtn{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     letter-spacing: 0.2rem;
     cursor: pointer;
     width: 150px;
@@ -49,36 +49,36 @@ nav{
     color: rgb(255, 255, 255);
     border: none;
     transition: ease-out 0.3s;
-    background-color: blueviolet;
+    background-color: rgb(0, 153, 255);
   }
-    #ProjectsBtn:hover{
+    #WorkBtn:hover{
       background-color: rgb(255, 255, 255);
-      color: blueviolet;
-      border: 3px solid blueviolet;
+      color: rgb(0, 153, 255);
+      border: 3px solid rgb(0, 153, 255);
     }
 
-    #TechnologyBtn{
+    #skillsbtn{
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      font-size: 1.3rem;
+      font-size: 1.5rem;
       letter-spacing: 0.2rem;
       cursor: pointer;
-      width: 190px;
+      width: 150px;
       height: 40px;
       border-radius: 2rem;
       color: rgb(255, 255, 255);
       border: none;
       transition: ease-out 0.3s;
-      background-color: blueviolet;
+      background-color: rgb(0, 153, 255);
     }
-      #TechnologyBtn:hover{
+      #skillsbtn:hover{
         background-color: rgb(255, 255, 255);
-        color: blueviolet;
-        border: 3px solid blueviolet;
+        color: #0099ff;
+        border: 3px solid #0099ff;
       }
 
     #ContactBtn{
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      font-size: 1.3rem;
+      font-size: 1.5rem;
       letter-spacing: 0.2rem;
       cursor: pointer;  
       width: 150px;
@@ -87,12 +87,12 @@ nav{
       color: rgb(255, 255, 255);
       border: none;
       transition: ease-out 0.3s;
-      background-color: blueviolet;
+      background-color: #0099ff;
     }
       #ContactBtn:hover{
         background-color: rgb(255, 255, 255);
-        color: blueviolet;
-        border: 3px solid blueviolet;
+        color: #0099ff;
+        border: 3px solid #0099ff;
       }
 
 
@@ -121,15 +121,7 @@ nav{
 
 /* Landing screen container */
 .landing-screen{
-  justify-content: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  height: 1200px;
-  background-color: rgb(255, 255, 255);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  align-items: center;
-  display: flex;
+  color: black;
 }
 .landing-screen a{
       text-decoration: none;
